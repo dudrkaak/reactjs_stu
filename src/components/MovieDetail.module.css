@@ -1,0 +1,19 @@
+.moviedetail{
+ background-color: white;
+ padding: 0 30px;
+}
+.moviedetail__title{
+    color: black; text-decoration: none;
+}
+.moviedetail__ti{
+    display: flex; 
+}
+.moviedetail__ti__tx{
+    padding-left: 50px;
+}
+.moviedetail__genres ul li{
+    list-style: none;
+}
+
+.moviedetail__description { max-height: 300px; overflow: scroll;}
+.moviedetail__description::-webkit-scrollbar{display: none;}
